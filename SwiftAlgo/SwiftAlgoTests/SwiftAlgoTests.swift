@@ -8,28 +8,55 @@
 
 import XCTest
 
+
 class SwiftAlgoTests: XCTestCase {
+    
+    private var intContainer = [Int]()
+    private var stringContainer = [String]()
+    private var customClassContainer = [CustomClass]()
+    private var testStructBasicTypes = [TestStructBasicTypes]()
+    private var testStructCustomTypes = [TestStructCustomTypes]()
     
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        setupIntContainer()
+        setupStringContainer()
+        setupCustomClassContainer()
+        setupTestStructBasicTypes()
+        setupTestStructCustomTypes()
     }
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
+    // MARK: Setup utilities
+    
+    private func setupIntContainer() {
+        intContainer = [1, 5, 3, 7, 8, 8, 4, 1, 2, 1]
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    private func setupStringContainer() {
+        
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    private func setupCustomClassContainer() {
+        
+    }
+    
+    private func setupTestStructBasicTypes() {
+        
+    }
+    
+    private func setupTestStructCustomTypes() {
+        
+    }
+    
+    // MARK: Test methods
+    
+    func test_count() {
+        let count = SwiftAlgo.count(value: 1, inContainer: intContainer)
+        XCTAssertEqual(count, 3)
+    }
+    
+    func test_countWithPredicate() {
+        
     }
     
 }

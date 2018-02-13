@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6222632F202CD8FD00B19A05 /* SwiftAlgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6222632E202CD8FD00B19A05 /* SwiftAlgo.swift */; };
+		62226330202CD8FD00B19A05 /* SwiftAlgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6222632E202CD8FD00B19A05 /* SwiftAlgo.swift */; };
+		62226332202CE14100B19A05 /* CustomTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62226331202CE14100B19A05 /* CustomTypes.swift */; };
 		62EA3F7C2022600A00552360 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EA3F7B2022600A00552360 /* main.swift */; };
 		62EA3F8A202260C100552360 /* SwiftAlgoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EA3F89202260C100552360 /* SwiftAlgoTests.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6222632E202CD8FD00B19A05 /* SwiftAlgo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgo.swift; sourceTree = "<group>"; };
+		62226331202CE14100B19A05 /* CustomTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTypes.swift; sourceTree = "<group>"; };
 		62EA3F782022600A00552360 /* SwiftAlgo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgo; sourceTree = BUILT_PRODUCTS_DIR; };
 		62EA3F7B2022600A00552360 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		62EA3F87202260C100552360 /* SwiftAlgoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAlgoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +84,7 @@
 		62EA3F822022606200552360 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				6222632E202CD8FD00B19A05 /* SwiftAlgo.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -88,6 +94,7 @@
 			children = (
 				62EA3F89202260C100552360 /* SwiftAlgoTests.swift */,
 				62EA3F8B202260C100552360 /* Info.plist */,
+				62226331202CE14100B19A05 /* CustomTypes.swift */,
 			);
 			path = SwiftAlgoTests;
 			sourceTree = "<group>";
@@ -182,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6222632F202CD8FD00B19A05 /* SwiftAlgo.swift in Sources */,
 				62EA3F7C2022600A00552360 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,6 +198,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62226332202CE14100B19A05 /* CustomTypes.swift in Sources */,
+				62226330202CD8FD00B19A05 /* SwiftAlgo.swift in Sources */,
 				62EA3F8A202260C100552360 /* SwiftAlgoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

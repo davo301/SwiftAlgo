@@ -8,5 +8,8 @@
 
 import Foundation
 
-
+print("****************************")
+print("*** Welcome to SwiftAlgo ***")
+print("*** Version: Draft-1      ***")
+print("****************************")
 
