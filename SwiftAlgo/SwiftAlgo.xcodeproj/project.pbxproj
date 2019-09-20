@@ -96,11 +96,19 @@
 		62EA3F88202260C100552360 /* SwiftAlgoTests */ = {
 			isa = PBXGroup;
 			children = (
-				62EA3F89202260C100552360 /* SwiftAlgoTests.swift */,
+				97342D7023350B6F0029C6BB /* Algorithms */,
 				62EA3F8B202260C100552360 /* Info.plist */,
-				62226331202CE14100B19A05 /* CustomTypes.swift */,
 			);
 			path = SwiftAlgoTests;
+			sourceTree = "<group>";
+		};
+		97342D7023350B6F0029C6BB /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				62EA3F89202260C100552360 /* SwiftAlgoTests.swift */,
+				62226331202CE14100B19A05 /* CustomTypes.swift */,
+			);
+			path = Algorithms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
