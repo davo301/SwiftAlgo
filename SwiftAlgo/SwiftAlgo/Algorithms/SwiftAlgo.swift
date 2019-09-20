@@ -10,12 +10,4 @@ import Foundation
 
 final class SwiftAlgo {
     
-    class func count<T: Equatable>(value: T, inContainer container: [T]) -> Int {
-        return container.filter{ $0 == value }.count
-    }
- 
-    class func count<T: Equatable>(inContainer container: [T], withPredicate predicate: (T) -> Bool ) -> Int {
-        return container.filter(predicate).count
-    }
-    
 }

@@ -8,7 +8,6 @@
 
 import XCTest
 
-
 class SwiftAlgoTests: XCTestCase {
     
     private var intContainer = [Int]()
