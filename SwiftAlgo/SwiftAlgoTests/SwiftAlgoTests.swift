@@ -32,7 +32,7 @@ class SwiftAlgoTests: XCTestCase {
     }
     
     private func setupStringContainer() {
-        
+        stringContainer = ["aaa", "xfd", "aaaXXXX", "people"]
     }
     
     private func setupCustomClassContainer() {
@@ -50,13 +50,19 @@ class SwiftAlgoTests: XCTestCase {
     // MARK: Test methods
     
     func test_count() {
-        let count = SwiftAlgo.count(value: 1, inContainer: intContainer)
+        var count = SwiftAlgo.count(value: 1, inContainer: intContainer)
         XCTAssertEqual(count, 3)
+        
+        count = SwiftAlgo.count(value: "aaa", inContainer: stringContainer)
+        XCTAssertEqual(count, 1)
     }
     
     func test_countWithPredicate() {
-        let count = SwiftAlgo.count(inContainer: intContainer, withPredicate: { $0 > 4 })
+        var count = SwiftAlgo.count(inContainer: intContainer, withPredicate: { $0 > 4 })
         XCTAssertEqual(count, 4)
+        
+        count = SwiftAlgo.count(inContainer: stringContainer, withPredicate: { $0.contains("aaa") })
+        XCTAssertEqual(count, 2)
     }
     
 }
