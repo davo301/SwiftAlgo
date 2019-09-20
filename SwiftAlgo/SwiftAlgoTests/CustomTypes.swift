@@ -10,18 +10,18 @@ import Foundation
 
 final class CustomClass: Equatable {
     
-    private var name: String
-    private var score: Double
+    var name: String
+    var score: Double
     
     init(name: String, score: Double) {
         self.name = name
         self.score = score
     }
     
-    func ==(lhs: CustomClass, rhs: CustomClass) -> Bool {
-        return lhs.name == rhs.name && lhs.score == rhs.score
-    }
-    
+}
+
+func ==(lhs: CustomClass, rhs: CustomClass) -> Bool {
+    return lhs.name == rhs.name && lhs.score == rhs.score
 }
 
 struct TestStructBasicTypes {

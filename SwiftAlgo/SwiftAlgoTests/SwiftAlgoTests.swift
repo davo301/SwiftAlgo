@@ -56,7 +56,8 @@ class SwiftAlgoTests: XCTestCase {
     }
     
     func test_countWithPredicate() {
-        
+        let count = SwiftAlgo.count(inContainer: intContainer, withPredicate: { $0 > 4 })
+        XCTAssertEqual(count, 4)
     }
     
 }
