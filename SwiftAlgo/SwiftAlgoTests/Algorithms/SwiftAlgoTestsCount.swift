@@ -8,7 +8,7 @@
 
 import XCTest
 
-class SwiftAlgoTests: XCTestCase {
+class SwiftAlgoTestsCount: XCTestCase {
     
     private var intContainer = [Int]()
     private var stringContainer = [String]()
