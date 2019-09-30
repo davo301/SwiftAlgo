@@ -10,10 +10,14 @@
 		6222632F202CD8FD00B19A05 /* SwiftAlgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6222632E202CD8FD00B19A05 /* SwiftAlgo.swift */; };
 		62226332202CE14100B19A05 /* CustomTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62226331202CE14100B19A05 /* CustomTypes.swift */; };
 		62EA3F7C2022600A00552360 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EA3F7B2022600A00552360 /* main.swift */; };
-		62EA3F8A202260C100552360 /* SwiftAlgoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EA3F89202260C100552360 /* SwiftAlgoTests.swift */; };
+		62EA3F8A202260C100552360 /* SwiftAlgoTestsCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EA3F89202260C100552360 /* SwiftAlgoTestsCount.swift */; };
 		97342D6D233507590029C6BB /* SwiftAlgo+Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97342D6C233507590029C6BB /* SwiftAlgo+Count.swift */; };
 		97342D6E233507F50029C6BB /* SwiftAlgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6222632E202CD8FD00B19A05 /* SwiftAlgo.swift */; };
 		97342D6F233507F80029C6BB /* SwiftAlgo+Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97342D6C233507590029C6BB /* SwiftAlgo+Count.swift */; };
+		976A9F8C23428011002373E9 /* SwiftAlgo+FindFirstOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976A9F8B23428011002373E9 /* SwiftAlgo+FindFirstOf.swift */; };
+		976A9F8D23428018002373E9 /* SwiftAlgo+FindFirstOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976A9F8B23428011002373E9 /* SwiftAlgo+FindFirstOf.swift */; };
+		976A9F8F234280AE002373E9 /* SwiftAlgoTestsFindFirstOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976A9F8E234280AE002373E9 /* SwiftAlgoTestsFindFirstOf.swift */; };
+		976A9F91234280F2002373E9 /* TestContainerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976A9F90234280F2002373E9 /* TestContainerHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,9 +38,12 @@
 		62EA3F782022600A00552360 /* SwiftAlgo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgo; sourceTree = BUILT_PRODUCTS_DIR; };
 		62EA3F7B2022600A00552360 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		62EA3F87202260C100552360 /* SwiftAlgoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAlgoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		62EA3F89202260C100552360 /* SwiftAlgoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgoTests.swift; sourceTree = "<group>"; };
+		62EA3F89202260C100552360 /* SwiftAlgoTestsCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgoTestsCount.swift; sourceTree = "<group>"; };
 		62EA3F8B202260C100552360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97342D6C233507590029C6BB /* SwiftAlgo+Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftAlgo+Count.swift"; sourceTree = "<group>"; };
+		976A9F8B23428011002373E9 /* SwiftAlgo+FindFirstOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftAlgo+FindFirstOf.swift"; sourceTree = "<group>"; };
+		976A9F8E234280AE002373E9 /* SwiftAlgoTestsFindFirstOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgoTestsFindFirstOf.swift; sourceTree = "<group>"; };
+		976A9F90234280F2002373E9 /* TestContainerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContainerHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +96,7 @@
 			children = (
 				6222632E202CD8FD00B19A05 /* SwiftAlgo.swift */,
 				97342D6C233507590029C6BB /* SwiftAlgo+Count.swift */,
+				976A9F8B23428011002373E9 /* SwiftAlgo+FindFirstOf.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -105,8 +113,10 @@
 		97342D7023350B6F0029C6BB /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				62EA3F89202260C100552360 /* SwiftAlgoTests.swift */,
+				62EA3F89202260C100552360 /* SwiftAlgoTestsCount.swift */,
 				62226331202CE14100B19A05 /* CustomTypes.swift */,
+				976A9F8E234280AE002373E9 /* SwiftAlgoTestsFindFirstOf.swift */,
+				976A9F90234280F2002373E9 /* TestContainerHelper.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -204,6 +214,7 @@
 				97342D6D233507590029C6BB /* SwiftAlgo+Count.swift in Sources */,
 				6222632F202CD8FD00B19A05 /* SwiftAlgo.swift in Sources */,
 				62EA3F7C2022600A00552360 /* main.swift in Sources */,
+				976A9F8C23428011002373E9 /* SwiftAlgo+FindFirstOf.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,9 +223,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				97342D6F233507F80029C6BB /* SwiftAlgo+Count.swift in Sources */,
+				976A9F8F234280AE002373E9 /* SwiftAlgoTestsFindFirstOf.swift in Sources */,
 				97342D6E233507F50029C6BB /* SwiftAlgo.swift in Sources */,
 				62226332202CE14100B19A05 /* CustomTypes.swift in Sources */,
-				62EA3F8A202260C100552360 /* SwiftAlgoTests.swift in Sources */,
+				62EA3F8A202260C100552360 /* SwiftAlgoTestsCount.swift in Sources */,
+				976A9F8D23428018002373E9 /* SwiftAlgo+FindFirstOf.swift in Sources */,
+				976A9F91234280F2002373E9 /* TestContainerHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
