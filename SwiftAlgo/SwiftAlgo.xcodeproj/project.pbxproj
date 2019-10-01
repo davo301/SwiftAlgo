@@ -17,6 +17,9 @@
 		97429E6D234344F400D03033 /* SwiftAlgo+Of.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97429E6C234344F400D03033 /* SwiftAlgo+Of.swift */; };
 		97429E6F2343455400D03033 /* SwiftAlgoTestsOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97429E6E2343455400D03033 /* SwiftAlgoTestsOf.swift */; };
 		97429E702343455900D03033 /* SwiftAlgo+Of.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97429E6C234344F400D03033 /* SwiftAlgo+Of.swift */; };
+		97429E7223434A5700D03033 /* SwiftAlgo+IsSorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97429E7123434A5700D03033 /* SwiftAlgo+IsSorted.swift */; };
+		97429E7323434A5700D03033 /* SwiftAlgo+IsSorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97429E7123434A5700D03033 /* SwiftAlgo+IsSorted.swift */; };
+		97429E7523434AA000D03033 /* SwiftAlgoTestsIsSorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97429E7423434AA000D03033 /* SwiftAlgoTestsIsSorted.swift */; };
 		976A9F8C23428011002373E9 /* SwiftAlgo+FindFirstOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976A9F8B23428011002373E9 /* SwiftAlgo+FindFirstOf.swift */; };
 		976A9F8D23428018002373E9 /* SwiftAlgo+FindFirstOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976A9F8B23428011002373E9 /* SwiftAlgo+FindFirstOf.swift */; };
 		976A9F8F234280AE002373E9 /* SwiftAlgoTestsFindFirstOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976A9F8E234280AE002373E9 /* SwiftAlgoTestsFindFirstOf.swift */; };
@@ -49,6 +52,8 @@
 		97342D6C233507590029C6BB /* SwiftAlgo+Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftAlgo+Count.swift"; sourceTree = "<group>"; };
 		97429E6C234344F400D03033 /* SwiftAlgo+Of.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftAlgo+Of.swift"; sourceTree = "<group>"; };
 		97429E6E2343455400D03033 /* SwiftAlgoTestsOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgoTestsOf.swift; sourceTree = "<group>"; };
+		97429E7123434A5700D03033 /* SwiftAlgo+IsSorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftAlgo+IsSorted.swift"; sourceTree = "<group>"; };
+		97429E7423434AA000D03033 /* SwiftAlgoTestsIsSorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgoTestsIsSorted.swift; sourceTree = "<group>"; };
 		976A9F8B23428011002373E9 /* SwiftAlgo+FindFirstOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftAlgo+FindFirstOf.swift"; sourceTree = "<group>"; };
 		976A9F8E234280AE002373E9 /* SwiftAlgoTestsFindFirstOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgoTestsFindFirstOf.swift; sourceTree = "<group>"; };
 		976A9F90234280F2002373E9 /* TestContainerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContainerHelper.swift; sourceTree = "<group>"; };
@@ -109,6 +114,7 @@
 				976A9F8B23428011002373E9 /* SwiftAlgo+FindFirstOf.swift */,
 				976A9F9223428533002373E9 /* SwiftAlgo+Mismatch.swift */,
 				97429E6C234344F400D03033 /* SwiftAlgo+Of.swift */,
+				97429E7123434A5700D03033 /* SwiftAlgo+IsSorted.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -131,6 +137,7 @@
 				976A9F90234280F2002373E9 /* TestContainerHelper.swift */,
 				976A9F952342854E002373E9 /* SwiftAlgoTestsMismatch.swift */,
 				97429E6E2343455400D03033 /* SwiftAlgoTestsOf.swift */,
+				97429E7423434AA000D03033 /* SwiftAlgoTestsIsSorted.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -230,6 +237,7 @@
 				62EA3F7C2022600A00552360 /* main.swift in Sources */,
 				976A9F9323428533002373E9 /* SwiftAlgo+Mismatch.swift in Sources */,
 				976A9F8C23428011002373E9 /* SwiftAlgo+FindFirstOf.swift in Sources */,
+				97429E7223434A5700D03033 /* SwiftAlgo+IsSorted.swift in Sources */,
 				97429E6D234344F400D03033 /* SwiftAlgo+Of.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,9 +250,11 @@
 				976A9F962342854E002373E9 /* SwiftAlgoTestsMismatch.swift in Sources */,
 				97429E702343455900D03033 /* SwiftAlgo+Of.swift in Sources */,
 				976A9F8F234280AE002373E9 /* SwiftAlgoTestsFindFirstOf.swift in Sources */,
+				97429E7523434AA000D03033 /* SwiftAlgoTestsIsSorted.swift in Sources */,
 				97429E6F2343455400D03033 /* SwiftAlgoTestsOf.swift in Sources */,
 				97342D6E233507F50029C6BB /* SwiftAlgo.swift in Sources */,
 				62226332202CE14100B19A05 /* CustomTypes.swift in Sources */,
+				97429E7323434A5700D03033 /* SwiftAlgo+IsSorted.swift in Sources */,
 				976A9F9423428533002373E9 /* SwiftAlgo+Mismatch.swift in Sources */,
 				62EA3F8A202260C100552360 /* SwiftAlgoTestsCount.swift in Sources */,
 				976A9F8D23428018002373E9 /* SwiftAlgo+FindFirstOf.swift in Sources */,
