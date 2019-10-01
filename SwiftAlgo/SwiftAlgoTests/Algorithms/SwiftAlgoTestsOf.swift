@@ -51,5 +51,19 @@ class SwiftAlgoTestsAllOf: XCTestCase {
         res = SwiftAlgo.none_of(inContainer: arr3, withPredicate: { $0 % 2 == 0 })
         XCTAssertFalse(res)
     }
+    
+    func testOneOf() {
+        let arr1 = [1, 5, 7, 2]
+        var res = SwiftAlgo.one_of(inContainer: arr1, withPredicate: { $0 % 2 == 0 })
+        XCTAssertTrue(res)
+        
+        let arr2 = [1, 5, 7]
+        res = SwiftAlgo.one_of(inContainer: arr2, withPredicate: { $0 % 2 == 0 })
+        XCTAssertFalse(res)
+        
+        let arr3 = [2, 4, 6, 8]
+        res = SwiftAlgo.one_of(inContainer: arr3, withPredicate: { $0 % 2 == 0 })
+        XCTAssertFalse(res)
+    }
 
 }

@@ -22,4 +22,8 @@ extension SwiftAlgo {
         return container.filter(predicate).isEmpty
     }
     
+    class func one_of<T: Equatable>(inContainer container: [T], withPredicate predicate: (T) -> Bool ) -> Bool {
+        return container.filter(predicate).count == 1
+    }
+    
 }
