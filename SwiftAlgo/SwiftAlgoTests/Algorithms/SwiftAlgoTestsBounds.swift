@@ -11,6 +11,7 @@ import XCTest
 class SwiftAlgoTestsBounds: XCTestCase {
 
     var elements = [51, 8, 10, 9, -4, 1, 0, 983, 88]
+    var elements2 = [51, 51, 8, 10, 9, 9, -4, 1, 0, 983, 88]
 
     func testLowerBound1() {
         let result = SwiftAlgo.lower_bound(container: elements, element: 9,
@@ -42,10 +43,16 @@ class SwiftAlgoTestsBounds: XCTestCase {
         XCTAssertEqual(result, nil)
     }
     
+    func testLowerBound6() {
+        let result = SwiftAlgo.lower_bound(container: elements2, element: 9,
+                                           startIndex: 0, endIndex: elements2.count)
+        XCTAssertEqual(result, 8)
+    }
+    
     func testUpperBound1() {
         let result = SwiftAlgo.upper_bound(container: elements, element: 51,
                                            startIndex: 0, endIndex: elements.count)
-        XCTAssertEqual(result, 8)
+        XCTAssertEqual(result, 88)
     }
     
     func testUpperBound2() {
@@ -70,6 +77,12 @@ class SwiftAlgoTestsBounds: XCTestCase {
         let result = SwiftAlgo.upper_bound(container: elements, element: 983,
                                            startIndex: elements.count, endIndex: elements.count + 2)
         XCTAssertEqual(result, nil)
+    }
+    
+    func testUpperBound6() {
+        let result = SwiftAlgo.upper_bound(container: elements2, element: 51,
+                                           startIndex: 0, endIndex: elements2.count)
+        XCTAssertEqual(result, 88)
     }
 
 }
